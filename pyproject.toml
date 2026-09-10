@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydrabrute"
+version = "1.0"
+authors = [
+  { name="Kamal Jamal", email="ksyf356.com" },
+]
+description = "High-Throughput Asynchronous Network Authentication Testing Engine"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+
+[project.scripts]
+hydrabrute = "hydra_brute:main"
