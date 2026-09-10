@@ -1,4 +1,4 @@
-# ⚡ HydraBrute v2.0
+# ⚡ HydraBrute v1.0
 ### High-Throughput Asynchronous Network Authentication Testing Engine
 **Pure Python Security Assessment Framework (Zero External Dependencies)**
  
